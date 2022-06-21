@@ -1,0 +1,422 @@
+*{
+   scroll-behavior: smooth; 
+}
+.body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Porsche Next,Arial Narrow,Arial,Heiti SC,SimHei,sans-serif;
+}
+.hedder{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background-color: #fff;
+    z-index: 5;
+}
+#logo{
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    width: 120px;
+    cursor: pointer;
+
+}
+.logo{
+    margin-left: 100px;
+    background-color: #fff;
+    width: 130px;
+    height: 145px;
+    border: .5px solid;
+}
+.logocar1{
+    display: flex;
+    position: absolute;
+    margin-left: 270px;
+    padding-right: 10px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+#p{
+display: flex;
+justify-content: center;
+margin-top: -10px;
+}
+#logocar1{
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+#logoshoppig{
+    margin-top: 19px;
+    margin-left: 250px;
+}
+.shop{
+    margin-left: 1px;
+    font-size: larger;
+}
+#location{
+    margin-top: -29px;
+    margin-left: 90px;
+}
+.threedot{
+    margin-left: 120px;
+    margin-top: -35px;
+    height: 40px;
+    width: 100px;
+    border-left: .5px solid;
+    border-color: gray;
+}
+#dot{
+    width: 3px;
+    height: 3px;
+    background-color: black;
+    border-radius: 5px;
+   margin-bottom: 3px;
+}
+.dot{
+    margin-left: 150px;
+    margin-top: -27px;
+}
+.mainimg{
+    margin-top: 10p;
+    position: relative;
+    width: 100%;
+    height: 700px;    
+}
+.mainp{
+    position: absolute;
+    margin-top: -175px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    left: 130px;
+}
+#mainp{
+    font-size: 26px ;
+}
+#mainarrow{
+    position: absolute;
+    left: 100px;
+    margin-top: -160px;
+    width: 20px;
+}
+.arromain{
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 20px;
+    width: 40px;
+}
+.arromain1{
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 1450px;
+    width: 40px;
+}
+.moadels{
+    margin-left: 130px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.img-sec{
+    height: 379px
+}
+
+.sec-image{
+display: flex;
+margin-bottom: 32px;
+cursor: pointer;
+
+}
+.sec-modelname{
+    display: flex;
+    margin-left: 40px;
+    margin-top: -370px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+.sec-modeprice{
+    display: flex;
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+.buildbutton{
+    margin-left: 30px;
+    margin-top: 210px;
+    border: 0;
+    background-color: #fff;
+    font-size: 16px;
+    width: 170px;
+    height: 50px;
+    cursor: pointer;
+}
+.allmodelsdbutton{
+    margin-left: 5px;
+    margin-top: 210px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    width: 170px;
+    height: 50px;
+    cursor: pointer;
+}
+.european{
+    padding-left: 120px;
+    padding-top: 15px;
+    padding-bottom:30px;
+}
+.bu-find{
+    margin-left: 130px;
+    color: #fff;
+    border: 0;
+    background-color:#313639;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#three-arrow{
+    padding-right: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.three-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.for-img-1{
+
+    display: flex;
+    width: 500px;
+ height:293px;
+ cursor: pointer;
+
+}
+.for-copare{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: -45px;
+    margin-left: 15px;
+    color: #fff;
+}
+.for-copare:hover{
+    color: red;
+}
+#for-compare-arro{
+    font-size: 30px;
+    padding-right: 10px;
+    color: red;
+}
+.four-section{
+    margin-left: 130px;
+    margin-bottom: 50px;
+    
+}
+#fif-img-1{
+    width: 420px;
+    height: 420px;
+    cursor: pointer;
+}
+#twitterlogo{
+    position: absolute;
+    padding-left: 360px;
+    margin-top: -40px;
+    width: 30px;
+}
+.fif-img-1{
+    position: relative;
+    margin-left: 5px;
+}
+.fif-twit-logo{
+    position: absolute;
+    top: 365px;
+    left: 365px;
+}
+.twit-logo{
+    color: #fff;
+    font-size: 25px;
+}
+#fif-img-2{
+    width: 208px;
+    width: 208px;
+    cursor: pointer;
+}
+.fif-twit-logo1{
+    position: absolute;
+    top: 170px;
+    left: 165px;
+    
+}
+.fif-part{
+    display: flex;
+}
+.fifth-section{
+    display: flex;
+    justify-content: center;
+}
+.fif-load-but{
+    margin-top: 30px;
+    margin-left: 1069px;
+}
+#dis-img{
+    height: 240.5px;
+    width: 315px;
+    cursor: pointer;
+}
+.discover{
+    display: flex;
+    justify-content: center;
+}
+.exit-logo{
+color: red;
+margin-right: 10px;
+cursor: pointer;
+}
+.border{
+    display: flex;
+    justify-content: center;
+    
+}
+.bor-in{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    width: 1260px;
+    border: .5px solid gray;
+}
+.build{
+    font-size: 25px;
+   font-weight: bold;
+   margin-bottom: 30px;
+}
+.build-sub{
+    font-size: 20px;
+   margin-bottom: 30px;
+   cursor: pointer;
+}
+.six-share-page{
+    margin: 40px;
+
+}
+.six-section{
+    display: flex;
+    justify-content: center;
+}
+.bu-share-page{
+    display: flex;
+    color: #fff;
+    border: 0;
+    background-color:#313639;
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    align-items: center;
+}
+.share-logo{
+    margin: 15px;
+    font-size: x-large;
+    cursor: pointer;
+}
+.six-share-bu{
+    margin-top: 50px;
+    
+    
+    
+}
+.six-connect{
+    margin-top: 40px;
+    color:gray;
+    font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 5px; 
+   cursor: pointer;  
+}
+.six-box{
+    background-color: #313639;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.six-fb{
+    font-size: 30px;
+  margin-left: 13px;
+  margin-top: 10px;
+    color: #fff;
+}
+.six-you{
+    font-size: 30px;
+  margin-left: 8px;
+  margin-top: 10px;
+    color: #fff;
+}
+.six-logos{
+    display: flex;
+}
+.end{
+    background-color: #191f22;
+    width: 100%;
+    height: 260px;
+
+    
+}
+.end-section{
+    margin-left: 130px;
+
+}
+.end-change{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.end-box{
+    background-color: #444;
+    width: 320px;
+    height: 45px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.end-select-p{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+.end-arrow-logo{
+    margin-left: 180px;
+}
+.end-box-menu{
+    display: flex;
+   
+
+}
+.end-select-p2{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: gray;
+    font-size: 18px;
+}
+.end-border-line{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 1260px;
+    border: 1px solid gray;
+}
+.end-p{
+    color: #fff;
+    font-size: 17px;
+}
+#end-link-font{
+color: #fff;
+margin-left: 5px;
+}
